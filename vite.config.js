@@ -4,7 +4,7 @@ import autoprefixer from 'autoprefixer';
 
 export default defineConfig({
   build: {
-    // outDir: 'assets',
+    outDir: 'assets',
     watch: {},
     rollupOptions: {
       input: {
