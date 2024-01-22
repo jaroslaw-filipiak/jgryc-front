@@ -9,6 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        typo: resolve(__dirname, 'typo.html'),
       },
       output: {
         entryFileNames: `js/scripts.js`,
